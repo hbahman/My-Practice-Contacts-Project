@@ -8,7 +8,9 @@ public class Contacts {
         Scanner scanner= new Scanner(System.in);
         String userInput,userName,userNumber;
         System.out.println("Hi There! welcome to my contacts code."+"\n-------------Menu--------------");
-        System.out.println("1. Add a contact." + "\n2. Contact list." + "\n3. Exit." );
+        System.out.println("1. Add a contact.");
+        System.out.println("2. Contact list.");
+        System.out.println("3. Exit." );
         System.out.println("--------------------------------");
         while (true) {
             System.out.print("Please select one of the options: ");
